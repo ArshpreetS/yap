@@ -12,9 +12,9 @@ const Hero = () => {
             Available for work
           </div>
           <div className="text-blue-400 font-semibold text-lg tracking-wide">
-            HELLO, I'M
+            HELLO, I'm Arshpreet Singh
           </div>
-          <div className="text-5xl md:text-7xl leading-tight">
+          <h1 className="text-5xl md:text-7xl leading-tight">
             <span className="text-white font-bold">
               Software
             </span>
@@ -22,7 +22,7 @@ const Hero = () => {
             <span className="bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent font-bold">
               Engineer
             </span>
-          </div>
+          </h1>
           <div className="text-xl text-slate-300 leading-relaxed">
             Building innovative solutions with modern technologies. Passionate
             about creating seamless user experiences and scalable applications.

@@ -28,5 +28,9 @@ body {
 }
 
 #about {
-  @apply flex flex-col items-center justify-center h-[50vh];
+  @apply flex flex-col items-center justify-center h-dvh;
+}
+
+#contact {
+  @apply flex flex-col items-center justify-center h-dvh;
 }
