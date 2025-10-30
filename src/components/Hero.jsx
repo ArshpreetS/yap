@@ -1,3 +1,7 @@
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faInbox } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Hero = () => {
   return (
     <section id="hero">
@@ -10,24 +14,32 @@ const Hero = () => {
           <div className="text-blue-400 font-semibold text-lg tracking-wide">
             HELLO, I'M
           </div>
-          <div>Software Engineer</div>
-          <div>
+          <div className="text-5xl md:text-7xl leading-tight">
+            <span className="text-white font-bold">
+              Software
+            </span>
+            <br />
+            <span className="bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent font-bold">
+              Engineer
+            </span>
+          </div>
+          <div className="text-xl text-slate-300 leading-relaxed">
             Building innovative solutions with modern technologies. Passionate
             about creating seamless user experiences and scalable applications.
           </div>
-          <div>
-            <button>Get in touch</button>
-            <button>View work</button>
+          <div className="flex gap-4">
+            <button className="px-8 py-4 font-bold rounded-2xl bg-linear-to-r from-blue-500 to-purple-500">Get In Touch</button>
+            <button className="px-8 py-4 font-bold rounded-2xl bg-slate-900 border border-[#334156]">View work</button>
           </div>
-          <div>
-            <button>github</button>
-            <button>linkedin</button>
-            <button>email</button>
+          <div className="flex gap-4 text-2xl">
+            <button className="rounded-2xl p-4 bg-[#11192b] border border-[#334156]"><FontAwesomeIcon icon={faGithub} /></button>
+            <button className="rounded-2xl p-4 bg-[#11192b] border border-[#334156]"><FontAwesomeIcon icon={faLinkedinIn} /></button>
+            <button className="rounded-2xl p-4 bg-[#11192b] border border-[#334156]"><FontAwesomeIcon icon={faInbox} /></button>
           </div>
         </div>
         <div className="flex justify-center items-center">
           <div className="relative">
-            <div className="h-80 w-80 rounded-full p-1 bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400 flex justify-center items-center">
+            <div className="h-80 w-80 rounded-full p-1 bg-linear-to-br from-blue-400 via-purple-400 to-pink-400 flex justify-center items-center">
               {/* TODO (Arshpreet): Get proper icons instead of < and > */}
               <div className="flex justify-center items-center h-full w-100 rounded-full bg-slate-900 text-8xl font-bold text-[#60A5FA]">
                 &lt; &gt;
