@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --default-font-family: "Inter", "sans-serif";
+  /* --font-display: "Satoshi", "sans-serif"; */
+  /* --font-display: "Inter", "sans-serif"; */
+}
+
+body {
+  @apply bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950;
+}
+
+#navbar {
+  @apply flex justify-between text-white fixed top-0 w-dvw px-6 py-4 bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-800/50;
+
+  button {
+    @apply bg-[#13213F] border-[#203E75] border rounded-lg px-6 py-2 font-bold;
+  }
+
+  div {
+    @apply text-2xl flex items-center font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent;
+  }
+}
+
+#hero {
+  @apply h-dvh flex;
+}
