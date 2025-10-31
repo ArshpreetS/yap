@@ -40,15 +40,15 @@ body {
 }
 
 #about {
-  @apply flex flex-col items-center justify-center h-dvh;
+  @apply flex flex-col items-center justify-center h-[75vh];
 }
 
 #contact {
-  @apply flex flex-col items-center justify-center h-dvh;
+  @apply flex flex-col items-center justify-center h-[75vh];
 }
 
 #skills {
-  @apply flex flex-col items-center justify-center h-dvh;
+  @apply flex flex-col items-center justify-center h-[75vh];
 }
 
 @utility sectionTitle {
