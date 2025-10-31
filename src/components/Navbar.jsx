@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center gap-8">
           <div>About</div>
           <div>Skills</div>
-          <div>Projects</div>
+          {/* <div>Projects</div> */}
           <div>Contact</div>
         </div>
         <button>

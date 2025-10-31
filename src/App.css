@@ -34,3 +34,11 @@ body {
 #contact {
   @apply flex flex-col items-center justify-center h-dvh;
 }
+
+#skills {
+  @apply flex flex-col items-center justify-center h-dvh;
+}
+
+@utility sectionTitle {
+  @apply leading-relaxed text-5xl font-bold bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent;
+}
