@@ -13,7 +13,14 @@ const Skills = () => {
   const skills = [
     {
       category: "Frontend Development",
-      technologies: ["React", "Flutter", "HTML", "CSS", "JavaScript"],
+      technologies: [
+        "React",
+        "Flutter",
+        "HTML",
+        "Tailwindcss",
+        "CSS",
+        "JavaScript",
+      ],
       icon: faLaptop,
     },
     {
