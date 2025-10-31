@@ -12,7 +12,7 @@ body {
 }
 
 #navbar {
-  @apply text-white fixed top-0 w-dvw bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-800/50;
+  @apply text-white fixed top-0 w-dvw bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-800/50 flex justify-center;
 
   a.resume {
     @apply bg-[#13213F] border-[#203E75] border rounded-lg px-6 py-2 font-bold duration-300 cursor-pointer;
