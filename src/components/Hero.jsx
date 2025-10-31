@@ -43,7 +43,7 @@ const Hero = () => {
 
   return (
     <section id="hero">
-      <div className="max-w-7xl pt-50 md:pt-0 w-full grid md:grid-cols-2 relative gap-12">
+      <div className="max-w-7xl pt-20 px-4 md:pt-0 w-full grid md:grid-cols-2 relative gap-12">
         {/* Content Section */}
         <div className="flex flex-col gap-6">
           <div className="available-badge  bg-[#0A142F] text-white w-fit rounded-3xl px-4 py-2 flex justify-center items-center gap-2 border border-[#152F5F]">
