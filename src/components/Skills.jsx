@@ -13,22 +13,27 @@ const Skills = () => {
   const skills = [
     {
       category: "Frontend Development",
-      technologies: ["React", "Vue", "Angular", "HTML", "CSS", "JavaScript"],
+      technologies: ["React", "Flutter", "HTML", "CSS", "JavaScript"],
       icon: faLaptop,
     },
     {
       category: "Backend Development",
-      technologies: ["Node.js", "Express", "Django", "SQL"],
+      technologies: ["Golang", "Grpc", "BigTable", "Node.js"],
       icon: faCode,
     },
     {
       category: "DevOps & Cloud",
-      technologies: ["Docker", "Kubernetes", "AWS", "Azure", "CI/CD"],
+      technologies: [
+        "Apache Airflow",
+        "Kubernetes",
+        "Gcloud",
+        "Github workflows",
+      ],
       icon: faGears,
     },
     {
       category: "Tools & Platforms",
-      technologies: ["Git", "Jira", "VS Code", "Postman", "Figma"],
+      technologies: ["Web3", "Solana", "VS Code", "Postman", "Linux"],
       icon: faWrench,
     },
   ];
