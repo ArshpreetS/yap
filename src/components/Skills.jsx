@@ -1,12 +1,13 @@
 import {
   faCode,
-  faDatabase,
   faGears,
   faLaptop,
   faWrench,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useGSAP } from "@gsap/react";
 import React from "react";
+import gsap from "gsap";
 
 const Skills = () => {
   const skills = [
@@ -31,6 +32,31 @@ const Skills = () => {
       icon: faWrench,
     },
   ];
+
+  useGSAP(() => {
+    gsap.from(".sectionTitle", {
+      scrollTrigger: {
+        trigger: "#skills",
+        start: "top 70%",
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.5,
+      ease: "power2.inOut",
+    });
+
+    gsap.from("#skills .group", {
+      scrollTrigger: {
+        trigger: "#skills",
+        start: "top 60%",
+      },
+      opacity: 0,
+      y: -40,
+      delay: 0.2,
+      duration: 0.6,
+      ease: "power2.inOut",
+    });
+  });
 
   return (
     <section id="skills">

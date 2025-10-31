@@ -20,10 +20,11 @@ const About = () => {
     gsap.from(".about-content", {
       scrollTrigger: {
         trigger: "#about",
-        start: "top 40%",
+        start: "top 60%",
       },
       opacity: 0,
       x: -100,
+      delay: 0.2,
       duration: 0.6,
       ease: "power1.inOut",
     });

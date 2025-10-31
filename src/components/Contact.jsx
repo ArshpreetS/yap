@@ -1,14 +1,28 @@
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faInbox } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useGSAP } from "@gsap/react";
 import React from "react";
+import gsap from "gsap";
 
 const Contact = () => {
+  useGSAP(() => {
+    gsap.from(".heading", {
+      scrollTrigger: {
+        trigger: "#skills",
+        start: "top 70%",
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.5,
+      ease: "power2.inOut",
+    });
+  });
   return (
     <section id="contact">
       <div className="max-w-7xl flex flex-col justify-center items-center gap-10">
-        <div className=" flex flex-col justify-center items-center">
-          <div className="leading-relaxed text-5xl font-bold bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+        <div className="flex flex-col justify-center items-center">
+          <div className="heading leading-relaxed text-5xl font-bold bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
             Let's Work Together
           </div>
           <div className="text-[#cad4e0] text-lg text-center">
