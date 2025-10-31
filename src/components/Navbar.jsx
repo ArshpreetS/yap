@@ -42,12 +42,12 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-        <button
-          onClick={downloadResume}
+        <a
+          href={downloadUrl}
           className="resume hover:scale-110 hover:bg-slate-400"
         >
           <FontAwesomeIcon icon={faDownload} /> Resume
-        </button>
+        </a>
       </div>
     </nav>
   );
