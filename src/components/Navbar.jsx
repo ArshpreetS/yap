@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav id="navbar">
       <div className="max-w-7xl flex justify-between w-full px-6 py-4">
         <div className="title">&lt;Arshpreet/&gt;</div>
-        <div className="flex items-center gap-8">
+        <div className="hidden items-center gap-8 md:flex">
           <div className="nav-link">
             <a href="#about" className="relative">
               About
