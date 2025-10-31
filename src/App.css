@@ -15,8 +15,20 @@ body {
   @apply flex justify-center text-white fixed top-0 w-dvw bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-800/50;
 
   button {
-    @apply bg-[#13213F] border-[#203E75] border rounded-lg px-6 py-2 font-bold;
+    @apply bg-[#13213F] border-[#203E75] border rounded-lg px-6 py-2 font-bold duration-300 cursor-pointer;
   }
+}
+
+/* @utility nav-link {
+  @apply relative after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-blue-500 hover:text-blue-500 hover:duration-300 after:w-0 hover:after:w-full after:transition-all; */
+/* } */
+
+@utility nav-link {
+  @apply relative before:absolute hover:text-black before:inset-0 before:right-0 before:w-0 before:-skew-y-3 before:bg-pink-500  hover:duration-300 hover:before:w-full before:transition-all;
+}
+
+@utility social-box {
+  @apply hover:scale-110 duration-300 hover:border-blue-500 cursor-pointer;
 }
 
 @utility title {
