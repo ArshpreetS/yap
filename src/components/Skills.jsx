@@ -71,7 +71,7 @@ const Skills = () => {
   });
 
   return (
-    <section id="skills">
+    <section id="skills" className="snap-center">
       <div className="max-w-7xl max-w flex flex-col justify-center items-center gap-12">
         <div className="flex flex-col items-center">
           <h2 className="sectionTitle text-center">Skills & Expertise</h2>

@@ -42,7 +42,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="hero">
+    <section id="hero" className="snap-center">
       <div className="max-w-7xl pt-20 px-4 md:pt-0 w-full grid md:grid-cols-2 relative gap-12">
         {/* Content Section */}
         <div className="flex flex-col gap-6">

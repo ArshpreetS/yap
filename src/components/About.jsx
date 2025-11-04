@@ -31,7 +31,7 @@ const About = () => {
   });
 
   return (
-    <section id="about">
+    <section id="about" className="snap-center">
       <div className="max-w-7xl flex flex-col gap-10">
         <div className="flex flex-col items-center gap-2">
           <div className="about-title text-5xl font-bold bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">

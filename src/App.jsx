@@ -14,10 +14,12 @@ function App() {
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
       </div>
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Contact />
+      <div className="snap-y snap-mandatory">
+        <Hero />
+        <About />
+        <Skills />
+        <Contact />
+      </div>
     </>
   );
 }
