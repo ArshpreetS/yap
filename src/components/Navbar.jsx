@@ -2,7 +2,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
-  const fileId = "1p_dC-ctpDyJAhGyqrXfEGFgsluP9gLmt";
+  const fileId = "1_Qh-Io8vb_P5GPzK6acAv-Guv3X0uZey";
   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
   function downloadResume() {
